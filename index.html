@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Pavan Reddy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="branding">
+            <img src="pic-for-resume-modified.png" alt="Pavan Reddy">
+            <h1>Pavan Reddy</h1>
+            <p>Computer Science Student | Developer</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a dedicated third-year student pursuing Computer Science at KL University, Vijayawada, India. Passionate about coding, technology, and innovation.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skill-bars">
+                <div class="bar">
+                    <div class="info">
+                        <span>HTML</span>
+                    </div>
+                    <div class="progress-line html"><span style="width: 90%;"></span></div>
+                </div>
+                <!-- Repeat for other skills -->
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-slider">
+                <div class="slide" style="background-image: url('project1.jpg');">
+                    <div class="overlay">
+                        <h3>Project 1</h3>
+                        <p>Project 1 description goes here.</p>
+                    </div>
+                </div>
+                <!-- Repeat for other projects -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>B.Tech in Computer Science and Engineering (CSE)</strong><br>
+                    K L University, Vijayawada, India<br>
+                    Graduation Year: 2023 (Expected)<br>
+                    CGPA: 9.00
+                </li>
+                <!-- Include other education details -->
+            </ul>
+        </section>
+
+        <section id="hobbies">
+            <h2>Hobbies and Interests</h2>
+            <ul>
+                <li>Programming: I enjoy coding and developing software applications.</li>
+                <li>Reading: Science fiction and technology-related books.</li>
+                <li>Traveling: Exploring new places and cultures.</li>
+                <li>Gaming: Relaxing and improving strategic thinking.</li>
+                <li>Music: Wide variety of genres.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact: pavan@example.com</p>
+        <p>Pavan Reddy &copy; 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
